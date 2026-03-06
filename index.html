@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problematica Social</title>
     <meta name="description" content="Descripcion de pagina">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
     <body>
         <!-- ENCABEZADO PRINCIPAL DEL DOCUMENTO -->
         <header id="inicio">
@@ -17,7 +19,8 @@
                 <ul> 
                     <li> <a href="#contexto">Objetivo</a></li>
                     <li> <a href="#analisis">Analisis</a></li>
-                    <li> <a href="#recursos">Recursos</a></li>
+                    <li> <a href="#derechosydeberes">Derechos y Deberes</a></li>
+                    <li> <a href="#derechosydeberes">Derechos y Deberes</a></li>
                     <li> <a href="#multimedia">Multimedia</a></li>
                     <li> <a href="#tabla">Tabla</a></li>
                     <li> <a href="#contacto">Contacto</a></li>
@@ -111,8 +114,8 @@
             </section>
             <hr>
             <!-- Seccion recursos-->
-            <section id="recursos" aria-labelledby="titulo-recursos">
-                <h2 id="titulo-recursos">Recursos graficos</h2>
+            <section id="derechosydeberes" aria-labelledby="titulo-derechos">
+                <h2 id="titulo-derechos">Derechos y Deberes Ciudadanos</h2>
                 <article>
                     <h3>Imagen de ejemplo</h3>
                     <p>
@@ -133,6 +136,45 @@
                 </article>
             </section>
             <hr>
+
+            <section id="solucion" aria-labelledby="titulo-solucion">
+                <h2 id="titulo-solucion">Propuesta de Solucion</h2>
+                <article id="solucion-articulo">
+                    <p>
+                        Texto objetivo
+                    </p>
+
+                    <p>
+                        Mas texto p. En esta actividad se utilizaran etiquetas para 
+                        resaltar textos como el uso de 
+                        <strong>negrita semantica</strong> con
+                        <code>&lt;strong&gt;</code> o 
+                        <em>énfasis</em>
+                    </p>
+
+                    <blockquote cite="https://media.licdn.com/dms/image/v2/D5603AQFs4UNgAOWXwQ/profile-displayphoto-shrink_200_200/B56ZdCAzAUHoAg-/0/1749159195764?e=2147483647&v=beta&t=wAN19PqYky7B155y5UPaL5WvG7nxJVfNv3x-7IU9WdI">HTML es el esqueleto de las paginas web</blockquote>
+
+                    <p>
+                        Eso de arriba es una cita a algo
+                    </p>
+                </article>
+
+                <aside id="nota-accesibilidad" aria-label="Nota de accesibilidad"> 
+                    <h3>Nota rápida</h3>
+                    <p>
+                        Recuerda que toda imagen debe tener el parametro <strong><em>src</em></strong>
+                    </p>
+                </aside>
+
+                <p><a href="#inicio">Volver al inicio</a></p>
+                
+            </section>
+
+
+
+
+
+
             <!-- Seccion Multimedia-->
             <section id="multimedia" aria-labelledby="titulo-multimedia">
                 <h2 id="titulo-multimedia">Multimedia</h2>
@@ -189,7 +231,6 @@
                             </p>
 
                             <p>
-                                <button type="submit">Enviar</button>
                                 <button type="reset">Limpiar</button>
                             </p>
                         </fieldset>
