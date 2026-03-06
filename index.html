@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problematica Social</title>
+    <meta name="description" content="Descripcion de pagina">
+</head>
+    <body>
+        <!-- ENCABEZADO PRINCIPAL DEL DOCUMENTO -->
+        <header id="inicio">
+            <h1>Titulo h1</h1>
+            <p>Texto tipo p</p>
+
+            <!-- NAVEGACION DEL SITIO -->
+            <nav aria-label="Menú de navegacion principal"> 
+                <ul> 
+                    <li> <a href="#objetivo">Objetivo</a></li>
+                    <li> <a href="#contenidos">Contenidos</a></li>
+                    <li> <a href="#recursos">Recursos</a></li>
+                    <li> <a href="#multimedia">Multimedia</a></li>
+                    <li> <a href="#tabla">Tabla</a></li>
+                    <li> <a href="#contacto">Contacto</a></li>
+                    
+                </ul>
+
+                <!-- 
+                <p>
+                    Recurso externo recomendado: 
+                    <a 
+                    href=
+                    "https://media.licdn.com/dms/image/v2/D5603AQFs4UNgAOWXwQ/profile-displayphoto-shrink_200_200/B56ZdCAzAUHoAg-/0/1749159195764?e=2147483647&v=beta&t=wAN19PqYky7B155y5UPaL5WvG7nxJVfNv3x-7IU9WdI" 
+                    target ="_blank">
+                    ALEJO 
+                </a> 
+                </p>
+                -->
+                
+
+            </nav>
+            <hr>         
+        </header>
+        <!-- CONTENIDO PRINCIPAL-->
+        <main i="contenido-principal">
+            <!-- Seccion Objetivo -->   
+            <section id="objetivo" aria-labelledby="titulo-objetivo">
+                <h2 id="titulo-objetivo">Objetivo de Aprendizaje</h2>
+                <article id="objetivo-articulo">
+                    <p>
+                        Texto objetivo
+
+                    </p>
+
+                    <p>
+                        Mas texto p. En esta actividad se utilizaran etiquetas para 
+                        resaltar textos como el uso de 
+                        <strong>negrita semantica</strong> con
+                        <code>&lt;strong&gt;</code> o 
+                        <em>énfasis</em>
+                    </p>
+
+                    <blockquote cite="https://media.licdn.com/dms/image/v2/D5603AQFs4UNgAOWXwQ/profile-displayphoto-shrink_200_200/B56ZdCAzAUHoAg-/0/1749159195764?e=2147483647&v=beta&t=wAN19PqYky7B155y5UPaL5WvG7nxJVfNv3x-7IU9WdI">HTML es el esqueleto de las paginas web</blockquote>
+
+                    <p>
+                        Eso de arriba es una cita a algo
+                    </p>
+                </article>
+
+                <aside id="nota-accesibilidad" aria-label="Nota de accesibilidad"> 
+                    <h3>Nota rápida</h3>
+                    <p>
+                        Recuerda que toda imagen debe tener el parametro <strong><em>src</em></strong>
+                    </p>
+                </aside>
+
+                <p><a href="#inicio">Volver al inicio</a></p>
+                
+            </section>
+            <hr>
+            <!-- Seccion contenido -->
+            <section id="contenidos" aria-labelledby="titulo-contenidos">
+                <h2 id="titulo-contenidos">Contenidos aplicados en esta página </h2>
+                    <article id="lista-contenidos">
+                    <h3>Lista de elementos trabajados </h3>
+                    <ul> 
+                        <li>Estructura base: doctype, html, head, body </li>
+                        <li>Etiquetas de texto: titulos, parrafos, enfasis</li>
+                        <li>Enlaces internos y externos (etiqueta a)</li>
+                        <li>Imagenes</li>
+                        <li>Listas y tablas</li>
+                        <li>Semantica HTML5</li>
+                        <li>Multimedia</li>
+                        <li>Formularios</li>
+                    </ul>
+                    <h3>Lista ordenada</h3>
+                    <ol type="1" start="100">
+                        <li>Diseñar estructura del documento</li>
+                        <li>Agregar contenido</li>
+                        <li>Integrar enlaces</li>
+                        <li>Construir tabla y formularios</li>
+                        <li>Aplicar buenas practicas</li>
+
+                    </ol>
+                    <p><a href="#inicio">Volver al inicio</a></p>
+                </article>
+            </section>
+            <hr>
+            <!-- Seccion recursos-->
+            <section id="recursos" aria-labelledby="titulo-recursos">
+                <h2 id="titulo-recursos">Recursos graficos</h2>
+                <article>
+                    <h3>Imagen de ejemplo</h3>
+                    <p>
+                        Coloca la imagen dentro de la carpeta
+                        <strong>assets</strong>
+                    </p>
+                    <!-- Imagen-->
+                    <figure>
+                        <img
+                            src="assets/banner.jpg"
+                            alt="Banner ilustrativo de HTML5"
+                            width="900px"
+                            height="300px"
+                        >
+                        <figcaption>Figura 1. Imagen ilustrativa HTML5</figcaption>
+                    </figure>
+                    <p><a href="#inicio">Volver al inicio</a></p>
+                </article>
+            </section>
+            <hr>
+            <!-- Seccion Multimedia-->
+            <section id="multimedia" aria-labelledby="titulo-multimedia">
+                <h2 id="titulo-multimedia">Multimedia</h2>
+                <article id="video-demo">
+                    <h3>Video HTML5</h3>
+                    <p>Guarda un video en la carpeta <strong>assets</strong></p>
+                    <video controls width="900px">
+                        <source src="assets/tutu.mp4" type="video/mp4">
+                        Tu navegador no soporta video
+                    </video>
+                </article>
+
+                <article id="audio-demo">
+                    <h3>Audio HTML5</h3>
+                    <p>Guarda un audio en la carpeta <strong>assets</strong></p>
+                    <audio controls>
+                        <source src="assets/waza.mp3" type="audio/mp3">
+                        Tu navegador no soporta audio
+                    </video>
+                </article>
+            </section>
+            <hr>
+            <!-- damos por hecho las tablas, ojo-->
+            <!-- Seccion contacto-->
+            <section id="contacto" aria-labelledby="titulo-contacto">
+                <h2 id="titulo-contacto">Formulario de contacto</h2>
+                <article id="formulario-contacto">
+                    <p>
+                        Este formulario aplica campos HTML5  cx  
+                    </p>
+                    
+                    <form action="registrar.php" method="get">
+                        <fieldset>
+                            <legend>Datos del estudiante</legend>
+                            <p>
+                                Los campos marcados como 
+                                obligatorios deben ser 
+                                completados
+                            </p>
+
+                            <p>
+                                <label for="nombre">Nombre Completo *</label>
+                                <input 
+                                    type="text"
+                                    id="nombre"
+                                    name="nombre"
+                                    required
+                                    minlength="3"
+                                    placeholder="Ej: Juan"
+                                    maxlength="120"
+                                    >
+                            </p>
+
+                            <p>
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Limpiar</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
