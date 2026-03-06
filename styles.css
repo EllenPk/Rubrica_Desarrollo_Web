@@ -1,10 +1,12 @@
 /*colores principales*/
 :root{
-    --primario:#ffe072;
-    --secundario:#ffb168;
-    --fondo:#F5F5F5;
+    --primario:#700000;
+    --fondo:#ffedd8;
     --texto:#B22222;
     --nav: #f67474;
+    --p: #790202;
+    --colombia: #ffdd00;
+    
 }
 
 *{box-sizing: border-box;
@@ -22,8 +24,8 @@ body{
 }
 
 header{
-    background: var(--fondo);
-    color:var(--texto);
+    background: var(--primario);
+    color:var(--fondo);
     text-align: center;
     padding: 30px;
 
@@ -42,7 +44,8 @@ header h2{
 
 /*navegacion de la pagina*/
 nav{
-    background: var(--fondo);
+    background: var(--primario);
+
 
 }
 
@@ -56,7 +59,7 @@ nav ul{
 }
 
 nav a{
-    color: #B22222;
+    color:var(--fondo);
     text-decoration: none;
     font-weight: bold;
     padding: 8px 14px;
@@ -85,7 +88,12 @@ section{
 }
 
 h2{
-    color: var(--secundario);
+    color: var(--texto);
+    margin-bottom: 10px;
+}
+
+h3{
+    color: var(--colombia);
     margin-bottom: 10px;
 }
 
@@ -95,4 +103,63 @@ aside{
     border-left: 6px solid rgb(234, 103, 80);
     margin-bottom: 20px;
 }
+ 
+p{
+    color: var(--p);
+    font-size: 14px;
+}
 
+hr{
+    background:transparent;
+    border-top: #fff7ed;
+
+}
+/*imagenes*/
+
+img{
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+
+/* footer */
+footer{
+    background: var(--primario);
+    color: rgb(89, 3, 3);;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    color: var(--colombia);
+
+    
+}
+
+footer a{
+    color: var(--colombia);
+}
+
+footer a:hover{
+    background: var(--nav);
+    border-radius: 6px;
+}
+
+#volver-inicio{
+   
+    text-align: center;
+    
+}
+
+#volver-inicio a:hover{
+    background: var(--nav);
+    border-radius: 6px;
+}
+
+@media(max-width:760px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
