@@ -87,6 +87,13 @@ section{
 
 }
 
+#titulo-inicio{
+      text-align: center;
+    
+}
+
+p
+
 h2{
     color: var(--texto);
     margin-bottom: 10px;
@@ -106,7 +113,8 @@ aside{
  
 p{
     color: var(--p);
-    font-size: 14px;
+    text-align: justify;
+
 }
 
 hr{
@@ -133,12 +141,14 @@ footer{
 
 footer p{
     color: var(--colombia);
+     text-align: center;
 
     
 }
 
 footer a{
     color: var(--colombia);
+
 }
 
 footer a:hover{
